@@ -1,0 +1,289 @@
+.top01{
+	width:100%;
+	height:31px;
+	background:#9a0002;
+}
+.top01_ct{
+	width:1024px;
+	height:31px;
+	margin:0 auto;
+	background:url(../images/csym/top_01.png) no-repeat;
+}
+.top01_left{
+	padding-left: 30px;
+}
+.top01_left div{
+	float:left;
+	padding:0 6px;
+}
+.top01_left .top_wz{
+   font-size: 14px;
+   font-family: "Arial";
+   color: white;
+   line-height: 30px;
+}
+.top01_left .top_dl a:link,.top01_left .top_dl a:visited{
+   font-size: 12px;
+   font-family: "微软雅黑";
+   color: #b2afaf;
+   line-height: 30px;
+}
+.top01_left .top_dl a:hover{
+	 color: #ff0000;
+}
+.top01_right{
+	padding-right: 30px;
+}
+/*logo*/
+.logo01{
+	width:100%;
+	height:126px;
+	background:url(../images/csym/top_bj.jpg) repeat-x;
+	margin:0 auto;
+}
+.logo01_bj{
+	width:1024px;
+	height:126px;
+	margin:0 auto;
+}
+.logo01 .logo_left img {
+	float: left;
+	height: 122px;
+	width: 211px;
+	
+}
+logo/*daohang*/
+.csdh{
+	width:100%;
+	margin:0 auto;
+	position: relative;
+	z-index: 999;
+}
+.csdh_ct{
+	width: 100%;
+	height:56px;
+	background:url(../images/csym/dh_01.png) repeat-x;
+	position:absolute;
+}
+.csdh_wz{
+	width:1024px;
+	height:56px;
+	margin:0 auto;
+}
+.csdh_wz ul li{
+	float:left;
+}
+.csdh_wz ul li i{
+	float:left;
+	display: block;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Tahoma, Arial, Helvetica, sans-serif,;
+	width:26px;
+	height:17px;
+	background:url(../images/csym/dh_02.png) no-repeat;
+	margin-top: 11px;
+}
+.csdh_wz ul li a:link,.csdh_wz ul li a:visited{
+	display: block;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#fff;
+	padding:0 31px;
+	line-height:39px;
+	text-align:center;
+}
+.csdh_wz ul li a:hover{
+	color:#ff8b8d;
+}
+/*lbt*/
+ul,li{list-style:none;margin:0;padding:0}
+.DB_tab25 {width:100%;height:342px;position:relative;overflow:hidden;cursor:pointer;z-index: 995;padding-top: 40px;}
+.DB_tab25 .DB_bgSet{position:relative;}
+.DB_tab25 .DB_bgSet li{position:absolute;width:100%;height:342px;}
+.DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;width:100%;top:318px;text-align:center;font-size:0; border-radius:20px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li{cursor:pointer;margin:0 3px;display:inline}
+.DB_tab25 .DB_prev{position:absolute;left:-100px;top:170px;cursor:pointer;display:none}
+.DB_tab25 .DB_next{position:absolute;right:-100px;top:170px;cursor:pointer;display:none}
+/*中心内容*/
+.zxnr{
+	width:100%;
+	background:url(../images/csym/ct_bj.jpg) repeat;
+}
+.tbtj_1{
+	width:100%;
+	height:19px;
+	background:url(../images/csym/ct_01.png) repeat-x;
+}
+.zxnr_bj{
+	width:1024px;
+	margin:0 auto;
+}
+/*01*/
+.zxnr_01{
+	width:377px;
+	margin:0 auto;
+}
+.tbtj{
+	padding-top: 44px;
+	padding-left: 88px;
+}
+.tbtj div{
+	float:left;
+	padding: 0 6px;
+}
+.tbtj div.kf{
+	padding:0;
+	float:right;
+	padding-right: 10px;
+}
+.tbtj_2{
+	width:377px;
+	height:77px;
+	background:url(../images/csym/ct_04.png) no-repeat;
+	margin-top: 34px;
+}
+.tbdj_wz{
+	font-size: 30px;
+	font-family:"方正兰亭黑简体";
+	color:#422700;
+	text-align:center;
+}
+.cp_01{
+	width: 1024px;
+	height: 166px;
+}
+.cp_01 ul li{
+	width:208px;
+	height:145px;
+	border-radius:10px;
+	background: #dda85c;
+	float:left;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top: 4px;
+	margin-right: 40px;
+}
+.cp_01 ul li a img{
+	display: block;
+	margin:0 auto;
+}
+.cp_01 ul li a p{
+	display: block;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#110a01;
+	line-height: 37px;
+	text-align: center;
+}
+/*分层01*/
+.zjx{
+	width:100%;
+	height:15px;
+	background:url(../images/csym/zjx.jpg) repeat-x;
+	padding-bottom: 15px;
+	margin-top: 15px;
+}
+.zxnr_02{
+	width:100%;
+	margin:0 auto;
+}
+.fc_nr{
+	width:1024px;
+	margin:0 auto;
+	background:url(../images/csym/fc_01.png) no-repeat center;
+}
+.fc_mc{
+	width:956px;
+	height:102px;
+	margin:0 auto;
+	background:url(../images/csym/fc_xt.png) no-repeat center bottom;
+}
+.fc_wz{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color:#0a0a0a;
+	
+	float:left;
+	padding-left: 91px;
+	padding-top: 36px;
+}
+.fc_gd{
+	width: 59px;
+	height: 22px;
+	border-radius: 20px;
+	background: #d91c13;
+	float: right;
+	line-height: 19px;
+	text-align: center;
+	margin-top: 52px;
+	margin-right: 77px;
+}
+.fc_gd a:link,.fc_gd a:visited{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#fff;
+	line-height:19px;
+}
+.fc_gd a:hover{
+	font-size: 10px;
+}
+.fc_sp{
+	height:334px;
+	padding: 0 56px;
+}
+.fc_sp ul li{
+	float: left;
+	width:226px;
+	height:318px;
+
+}
+.fc_sp ul li img{
+	margin: 0 auto;
+	display: block;
+
+}
+.fc_sp_js{
+	width:226px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#0a0a0a;
+	line-height:35px;
+	text-align: center;
+}
+.fc_jq{
+	width:226px;
+	margin:0 auto;
+	padding-top: 5px;
+}
+.fc_jq div{
+	
+
+}
+.fc_je{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color:#0a0a0a;
+	line-height:24px;
+	float: left;
+	padding-left: 40px;
+}
+.fc_gm{
+	float:right;
+	width: 72px;
+	height:25px;
+	margin-right: 11px;
+	background:url(../images/csym/fc_anniu.png) no-repeat center bottom;
+}
+.fc_gm a:link,.fc_gm a:visited{
+	display: block;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#fff;
+	line-height:25px;
+	text-align: center;
+}
+.fc_gm a:hover{
+	font-size: 10px;
+}

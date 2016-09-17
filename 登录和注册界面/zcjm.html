@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+<link href="../css/index.css" type="text/css" rel="stylesheet"/>
+<link href="../css/dljm.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/my.js"></script>
+</head>
+<body>
+      <section>
+      	<div id="wy">
+      		<div class="wy">
+      			<!--begin 顶部top-->
+      			<div class="top">
+                <div class="top_ct">
+                  		<div class="top_left fl">
+                  			<div class="top_wz">Hi</div>
+                  			<div class="top_dl"><a href="#" target="" titile="登录">请登录</a></div>
+                  			<div class="top_dl top_zc"><a href="#" target="" titile="登录">免费注册</a></div>
+                         <div class="diqu">
+                                  <div class="diqu_01"><a class="xzdq">广州</a>
+                                        <div class="dq_dz">
+                                              <ul>
+                                                    <li><a href="#" target="_blank">北京</a></li>
+                                                    <li><a href="#" target="_blank">上海</a></li>
+                                                    <li><a href="#" target="_blank">广州</a></li>
+                                                    <li><a href="#" target="_blank">深圳</a></li>
+                                                    <li><a href="#" target="_blank">沈阳</a></li>
+                                                    <li><a href="#" target="_blank">武汉</a></li>
+                                                    <li><a href="#" target="_blank">重庆</a></li>
+                                                    <li><a href="#" target="_blank">南京</a></li>
+                                                    <li><a href="#" target="_blank">南京</a></li>
+                                                    <li><a href="#" target="_blank">天津</a></li>
+                                                    <li><a href="#" target="_blank">上海</a></li>
+                                              </ul>  
+                                        </div>
+                                  </div>
+                            </div>
+                  		  </div>
+                  		<div class="top_right fr">
+                  			<div class="top_right_wz fl">
+                  				<ul>
+                  					<li class="top_rt_01"><a>我的商城</a>
+                  						<div class="top_djxg">
+                  							<ul>
+                  								<li><a href="#" target="_blank">已卖出的宝贝</a></li>
+                  								<li><a href="#" target="_blank">已买出的宝贝</a></li>
+                  							</ul>
+                  						</div>
+                  					</li>
+                  					<li class="top_rt_01"><a>收藏夹</a>
+                  						<div class="top_djxg">
+                  							<ul>
+                  								<li><a href="#" target="_blank">收藏的宝贝</a></li>
+                  								<li><a href="#" target="_blank">收藏的店铺</a></li>
+                  							</ul>
+                  						</div>
+                  					</li>
+                  					<li class="top_rt_01"><a>手机商城</a>
+                  						
+                  					</li>
+                  					<li class="top_rt_01"><a>客户服务</a>
+                  						
+                  					</li>
+                  				</ul>
+                  			</div>
+                  			<div class="top_right_gzwm fr">
+                  				<i>关注我们：</i>
+                  				<a class="wx fl" href="#"></a>
+                  				<a class="wb fl" href="#"></a>
+                  			</div>
+                  		</div>
+                 </div>
+      			</div>
+      			<!--end 顶部top-->
+                        <!--begin logo-->
+                        <div class="logo logo_xhx">
+                              <div class="logo_left">
+                                    <img src="../images/logo.png" alt=""/>
+                              </div>
+
+                        </div>
+                        <!--begin 注册的内容-->
+                        <div class="zhuc_ct">
+                              <div class="zhuc_left fl"><img src="../images/dljm/tu01.jpg"/></div>
+                              <div class="zhuc_right fl">
+                                    <div class="right_zc">
+                                          <div class="zc_bt">用户注册</div>
+                                          <div class="zc_nr">
+                                                <div class="zc_wz">
+                                                      
+                                                      <div class="zc_bk"><input type="text" placeholder="请输入手机号"/></div>
+                                                      <strong>手机号：</strong>
+                                                </div>
+                                                <div class="zc_wz">
+                                                      
+                                                      <div class="zc_bk"><input type="text" placeholder="请输入密码"/></div>
+                                                      <strong>请设置密码：</strong>
+                                                </div>
+                                                <div class="zc_wz">
+                                                      
+                                                      <div class="zc_bk"><input type="text" placeholder="请确认手机号"/></div>
+                                                      <strong>请确认密码：</strong>
+                                                </div>
+                                                <div class="zc_wz">
+                                                      <strong style="float:left;padding-left: 18px;">获取验证码：</strong>
+                                                      <div class="zc_bk_1"><input type="text" value=""/></div>
+                                                     <div class="zc_input">
+                                                          <input type="button" id="btn" class="btn_mfyzm" value="免费获取验证码" />
+                                                          <script type="text/javascript">
+                                                            var wait=60;
+                                                            document.getElementById("btn").disabled = false;   
+                                                            function time(o) {
+                                                                    if (wait == 0) {
+                                                                        o.removeAttribute("disabled");           
+                                                                        o.value="免费获取验证码";
+                                                                        wait = 60;
+                                                                    } else {
+                                                                        o.setAttribute("disabled", true);
+                                                                        o.value="重新发送(" + wait + ")";
+                                                                        wait--;
+                                                                        setTimeout(function() {
+                                                                            time(o)
+                                                                        },
+                                                                        800)
+                                                                    }
+                                                                }
+                                                            document.getElementById("btn").onclick=function(){time(this);}
+                                                          </script> 
+                                                    </div>
+                                                </div>
+                                          </div>
+                                          <div class="xy">
+                                                <div class="xy_input fl"><input type="checkbox"></div>
+                                                <p class="xy_p fl">我已阅读并同意《网上超市注册协议》</p>
+                                          </div>
+                                           <div class="zc_anniu">
+                                                <input id="submitBtn" type="button" class="regsubBtn"/>
+                                          </div>
+                                          <div class="zc_xt"><img src="../images/dljm/tu04.jpg"/></div>
+                                          <div class="dengl"><a href="#">已有账号，请登录</div></div>
+                                    </div>
+                              </div>
+
+                        </div>
+                        <!---end 注册的内容->
+                        <!--end logo-->
+                         <div class="cl"></div>
+                         <!--end foot2-->
+                         <div class="foot_dz">
+                              <div class="foot_dz_1">
+                                    <div class="foot_2">
+                                          <ul>
+                                              <li><a href="#" title="">关于商城</a></li>
+                                              <li><a href="#" title="">我们的团队</a></li>
+                                              <li><a href="#" title="">网站联盟</a></li>
+                                              <li><a href="#" title="">热门搜索</a></li>
+                                              <li class="no"><a href="#" title="">友情链接</a></li>
+                                          </ul>
+                                    </div>
+                                    <div class="foot_3">
+                                          <div class="foot_3_1 fl">
+                                              <p>沪ICP备13044278号|合字B1.B2-20130004|营业执照|互联网药品信息服务资格证|互联网药品交易服务资格证</p>
+                                              <p>Copyright© 1号店网上超市 2007-2014，All Rights Reserved</p>
+                                          </div>
+                                    </div>
+                              </div>
+                         </div>
+      		</div>
+      	</div>
+      </section>
+</body>
+
+</html>
+
